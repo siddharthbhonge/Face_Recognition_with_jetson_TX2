@@ -35,9 +35,9 @@ Pre-trained model weights: <br/>
 
 ##### III.Face recognition
 <br />
-'''
+```
 sudo pip3 apt-get install face-recognition
-'''
+```
 This is required for the k-means clustering approach and not the Facenet.This is optional  <br />
  <br />
 
@@ -73,7 +73,7 @@ Face_Recognition
 |---P is a "Positive" image--a picture of the same person as the Anchor image.<br />
 |---N is a "Negative" image--a picture of a different person than the Anchor image.<br />
 
-![alt text](https://github.com/siddharthbhonge/machine_learning_for_cancer_research/blob/master/triplet_loss.png)
+![alt text](https://github.com/siddharthbhonge/Face_Recognition_with_jetson_TX2/blob/master/triplet_loss.png)
 The facenet aims to minimize this triplet loss.<br />
 Here f(A,P,N) stands for the embeddings of each of the input image<br />
 
