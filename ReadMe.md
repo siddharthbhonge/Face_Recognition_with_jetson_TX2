@@ -83,7 +83,7 @@ Here f(A,P,N) stands for the embeddings of each of the input image<br />
 ##### 3.Run Face verification<br />
 ```
 verify("train/sid1.jpg", "siddharth", database, FRmodel)
-It's kian, welcome home!
+It's Siddharth, hey sexy!
 (0.08123432, True)
 ```
 
@@ -92,7 +92,7 @@ It's kian, welcome home!
 |-Find the encoding from the database that has smallest distance with the target encoding.<br />
 |--Initialize the min_dist variable to a large enough number (100). It will help you keep track of what is the closest encoding to the input's encoding.<br/>
 |--Loop over the database dictionary's names and encodings. To loop use for (name, db_enc) in database.items().<br/>
-|---->Compute L2 distance between the target "encoding" and the current "encoding" from the database.<br/>
+|----Compute L2 distance between the target "encoding" and the current "encoding" from the database.<br/>
 |----If this distance is less than the min_dist, then set min_dist to dist, and identity to name.<br/>
 
 
