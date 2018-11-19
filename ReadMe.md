@@ -2,7 +2,9 @@
 
 <br />Tensorflow implementation of Face Verification and Recognition using th on-board camera of TX2.Facenet and DeepFace implementations for the same are taken as inspiration.These models are compared to a naive K-means clustering approach for recognition tasks.
 
+![alt text](https://github.com/siddharthbhonge/Face_Recognition_with_jetson_TX2/blob/master/demo.png)
 
+## Demo Link:https://github.com/siddharthbhonge/Face_Recognition_with_jetson_TX2
 
 ## Getting Started
 
