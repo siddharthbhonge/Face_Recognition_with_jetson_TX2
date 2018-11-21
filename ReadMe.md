@@ -4,7 +4,7 @@
 
 ![alt text](https://github.com/siddharthbhonge/Face_Recognition_with_jetson_TX2/blob/master/demo.png)
 
-##### Demo Link:https://www.youtube.com/watch?v=UQUWNcQjsqg&t=1s
+##### Demo Link:https://youtu.be/ddQkRRmP6SY
 
 ## Getting Started
 
